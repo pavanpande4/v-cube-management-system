@@ -1,0 +1,14 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{% static 'showpage.css' %} ">
+    </head>
+    {% block content%}
+    <body>
+        <h1 >Welcome To VCUBE </h1>
+        If you have account:<button><a href="{%url 'loginpageurl'%}">Login</a></button><br><br>
+        If don't have account<button ><a href="{% url 'registerurl' %}">Register</a></button>
+    </body>
+    {% endblock %}
+</html> 

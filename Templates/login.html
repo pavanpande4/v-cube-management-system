@@ -1,0 +1,17 @@
+{% extends 'Base.html' %}
+{% block content %}
+    {% load static %}
+    <head>
+        <link rel="stylesheet" href="{% static 'login.css' %}">
+    </head>
+    <body>
+      <div class="check">
+        username:
+        <input type="text" placeholder="username"><br><br>
+        password:
+        <input type="password" ><br><br>
+        <button>Login</button>
+      </div>
+    
+    </body>
+{% endblock %}

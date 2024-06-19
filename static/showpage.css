@@ -1,0 +1,18 @@
+
+body{
+    background-image: url(images/vcbue.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    position: relative;
+    text-align: center;
+    margin-left: 100px;
+    color: red;
+}
+button a{
+    text-align: center;
+    text-decoration: none;
+    color: blue;
+    
+}
